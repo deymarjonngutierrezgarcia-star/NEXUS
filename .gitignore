@@ -1,3 +1,13 @@
-git add .
-git commit -m "Agregar codigo fuente del juego y configurar gitignore"
-git push
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Thumbs.db
+.DS_Store
