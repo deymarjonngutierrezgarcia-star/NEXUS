@@ -31,7 +31,7 @@
 1. Clona el repositorio desde Visual Studio (**Clonar un repositorio**) en una carpeta nueva.
 2. Abre SSMS, conéctate a tu instancia de SQL Server y ejecuta **en este orden** los scripts de la carpeta `sql/`:
    1. `01_crear_base.sql` (crea la base de datos NexusDB)
-   2. `02_NOMBRE_DEL_SCRIPT.sql` (crea las tablas y datos iniciales)
+   2. `02_crear_tablas.sql` (crea las tablas y datos iniciales)
 3. Abre la solución en Visual Studio.
 4. Ajusta la cadena de conexión en `App.config` con el nombre de **tu** servidor. Ejemplo:
    ```xml
