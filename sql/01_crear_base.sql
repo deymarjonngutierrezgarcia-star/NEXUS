@@ -1,1 +1,5 @@
-﻿
+﻿IF DB_ID('NexusDB') IS NULL
+BEGIN
+    CREATE DATABASE NexusDB;
+END
+GO
