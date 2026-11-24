@@ -33,7 +33,13 @@ namespace NEXUS.WinForms
                 txtNombre.Focus();
                 return;
             }
-
+            if (nombre.Length < 3 || nombre.Length > 20)
+            {
+                MessageBox.Show("El nombre debe tener entre 3 y 20 caracteres.", "NEXUS");
+                txtNombre.Focus();
+                txtNombre.SelectAll();
+                return;
+            }
             try
             {
                 var bd = new ConexionBD();
