@@ -33,6 +33,7 @@
             btnAcercaDe = new Button();
             btnSalir = new Button();
             lblTitulo = new Label();
+            txtNombre = new TextBox();
             SuspendLayout();
             // 
             // btnIniciar
@@ -78,18 +79,26 @@
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
-            lblTitulo.Location = new Point(311, 107);
+            lblTitulo.Location = new Point(319, 84);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(200, 25);
             lblTitulo.TabIndex = 5;
             lblTitulo.Text = "NEXUS - Menú Principal";
             lblTitulo.Click += lblTitulo_Click;
             // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(332, 122);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(150, 31);
+            txtNombre.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtNombre);
             Controls.Add(lblTitulo);
             Controls.Add(btnSalir);
             Controls.Add(btnAcercaDe);
@@ -108,5 +117,6 @@
         private Button btnAcercaDe;
         private Button btnSalir;
         private Label lblTitulo;
+        private TextBox txtNombre;
     }
 }
